@@ -5,8 +5,10 @@
 std::vector<double> applyConvolution(std::vector<double> x, std::vector<double> w, bool pack_with_zeros) {
   std::vector<double> y;
 
+  std::cout << "x: ";
   printVector(x);
 
+  std::cout << "w: ";
   printVector(w);
 
   int packing_size = (w.size()-1)/2;

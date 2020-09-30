@@ -31,8 +31,7 @@ int main() {
   std::cin >> s;
   w = readInVector(s);
 
-  applyConvolution(x, w, true);
-  applyConvolution(x, w, false);
+  applyConvolution(x, w, pack_with_zeros);
 
   return 0;
 }
