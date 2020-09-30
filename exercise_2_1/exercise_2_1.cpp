@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include "convolution.h"
+
 
 std::vector<double> readInVector(std::string s) {
   int prev_location = 0;

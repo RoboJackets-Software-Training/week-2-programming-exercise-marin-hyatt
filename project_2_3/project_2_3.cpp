@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector> 
 
 std::vector<double> readInVector(std::string s) {
   int prev_location = 0;
