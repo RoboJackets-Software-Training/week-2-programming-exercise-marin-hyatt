@@ -30,7 +30,7 @@ std::vector<double> applyConvolution(std::vector<double> x, std::vector<double> 
     }
     y.push_back(accumulator);
   }
-s
+
   printVector(y);
 
   return y;
