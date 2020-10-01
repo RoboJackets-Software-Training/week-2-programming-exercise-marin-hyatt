@@ -20,7 +20,7 @@ std::vector<double> readInVector(std::string s) {
 int main() {
   std::vector<double> x;
   std::vector<double> w;
-  bool pack_with_zeros = trues;
+  bool pack_with_zeros = true;
   std::string s;
   std::cin >> s;
   if(s == "false") {
